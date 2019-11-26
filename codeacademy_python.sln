@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "codeacademy_python", "codeacademy_python.pyproj", "{EBFAEF3F-0F9E-4F9D-B5AE-D568D6CA72C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBFAEF3F-0F9E-4F9D-B5AE-D568D6CA72C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFAEF3F-0F9E-4F9D-B5AE-D568D6CA72C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B349A0C-AB42-4E44-8195-ED06A93C936E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,257 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>ebfaef3f-0f9e-4f9d-b5ae-d568d6ca72c3</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>14_graph_searc\project_skyroute_review\skyroute.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>codeacademy_python</Name>
+    <RootNamespace>codeacademy_python</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="10_asymptotic_notation\linkedlist.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10_asymptotic_notation\node.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10_asymptotic_notation\queue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10_asymptotic_notation\script.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10_asymptotic_notation\stack.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="11_recursion\script.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="11_recursion\throwdown.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12_sorting\bubble_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12_sorting\merge_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12_sorting\project_sorted_tale\script.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12_sorting\project_sorted_tale\script_bastien.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12_sorting\project_sorted_tale\sorts.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12_sorting\project_sorted_tale\utils.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12_sorting\quicksort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="12_sorting\radix.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13_search_algorithms\binary_search.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13_search_algorithms\linear_search.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13_search_algorithms\project_searchdemy\bastien_script.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13_search_algorithms\project_searchdemy\script.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="13_search_algorithms\project_searchdemy\test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="14_graph_searc\project_skyroute\graph_search.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="14_graph_searc\project_skyroute\landmark_choices.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="14_graph_searc\project_skyroute\skyroute.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="14_graph_searc\project_skyroute\vc_landmarks.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="14_graph_searc\project_skyroute\vc_metro.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="14_graph_searc\project_skyroute_review\graph_search.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="14_graph_searc\project_skyroute_review\landmark_choices.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="14_graph_searc\project_skyroute_review\skyroute.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="14_graph_searc\project_skyroute_review\vc_landmarks.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="14_graph_searc\project_skyroute_review\vc_metro.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="14_graph_searc\script.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2_development_skills\git_cli.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5_python_object\project_basta_fazoolin.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5_python_object\classes.py" />
+    <Compile Include="3_flow_data_iteration\challenge_lists.py" />
+    <Compile Include="3_flow_data_iteration\challenge_loops.py" />
+    <Compile Include="1_introduction_programming\project_customer_items.py" />
+    <Compile Include="5_python_object\dictionaries.py" />
+    <Compile Include="1_introduction_programming\functions.py" />
+    <Compile Include="5_python_object\project_game_of_chance.py" />
+    <Compile Include="1_introduction_programming\greetings.py" />
+    <Compile Include="3_flow_data_iteration\project_hairdresser.py" />
+    <Compile Include="3_flow_data_iteration\if_statements.py" />
+    <Compile Include="5_python_object\inheritance_polymorphism.py" />
+    <Compile Include="3_flow_data_iteration\project_pizza_slice.py" />
+    <Compile Include="7_linear_data_structure\linked_lists.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5_python_object\lists.py" />
+    <Compile Include="3_flow_data_iteration\loops.py" />
+    <Compile Include="5_python_object\project_employee_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="7_linear_data_structure\nodes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="7_linear_data_structure\node_linked_list_stack_queue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="7_linear_data_structure\project_pizza_stacks.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="7_linear_data_structure\stacks.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="7_linear_data_structure\project_tower_hanoi.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6_art_marketplace\veneer_art_marketplace.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5_python_object\modules.py" />
+    <Compile Include="1_introduction_programming\project_physic.py" />
+    <Compile Include="5_python_object\project_robot_person.py" />
+    <Compile Include="3_flow_data_iteration\project_roulette.py" />
+    <Compile Include="5_python_object\project_scrabble.py" />
+    <Compile Include="3_flow_data_iteration\project_shipping.py" />
+    <Compile Include="5_python_object\strings.py" />
+    <Compile Include="5_python_object\strings_methods.py" />
+    <Compile Include="5_python_object\project_thread_shed.py" />
+    <Compile Include="4_tourism_recommendation_engine\traveler_project.py" />
+    <Compile Include="4_tourism_recommendation_engine\traveler_project_comments.py" />
+    <Compile Include="3_flow_data_iteration\tuples.py" />
+    <Compile Include="5_python_object\using_dictionaries.py" />
+    <Compile Include="8_complex_data_structure\graphs\graphs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\graphs\script.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\graphs\vertex.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\hashmap.py" />
+    <Compile Include="8_complex_data_structure\heaps.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\heap_review.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\project_blossom.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\project_gym\gym.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\project_maze\graph.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\project_maze\script.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\project_maze\vertex.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\project_maze_review\graph.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\project_maze_review\script.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\project_maze_review\vertex.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\project_south_activity\south_activity.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\project_wilderness_espace.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="8_complex_data_structure\trees.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="12_sorting\project_sorted_tale\" />
+    <Folder Include="13_search_algorithms\project_searchdemy\" />
+    <Folder Include="14_graph_searc\project_skyroute_review\" />
+    <Folder Include="14_graph_searc\project_skyroute\" />
+    <Folder Include="1_introduction_programming\" />
+    <Folder Include="2_development_skills\" />
+    <Folder Include="3_flow_data_iteration\" />
+    <Folder Include="4_tourism_recommendation_engine\" />
+    <Folder Include="5_python_object\" />
+    <Folder Include="6_art_marketplace\" />
+    <Folder Include="7_linear_data_structure\" />
+    <Folder Include="8_complex_data_structure\" />
+    <Folder Include="8_complex_data_structure\graphs\" />
+    <Folder Include="8_complex_data_structure\project_maze_review\" />
+    <Folder Include="8_complex_data_structure\project_gym\" />
+    <Folder Include="8_complex_data_structure\project_south_activity\" />
+    <Folder Include="8_complex_data_structure\project_maze\" />
+    <Folder Include="10_asymptotic_notation\" />
+    <Folder Include="11_recursion\" />
+    <Folder Include="12_sorting\" />
+    <Folder Include="13_search_algorithms\" />
+    <Folder Include="14_graph_searc\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
