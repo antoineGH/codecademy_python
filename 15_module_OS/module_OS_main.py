@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 from functions_module_OS import file_stat, path_desktop, count_items
 
-### CODE ###
+### CODE ####
 
 path = path_desktop()
 os.chdir(path)
