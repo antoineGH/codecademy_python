@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ebfaef3f-0f9e-4f9d-b5ae-d568d6ca72c3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>14_graph_searc\project_skyroute_review\skyroute.py</StartupFile>
+    <StartupFile>15_module_OS\module_OS_main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>codeacademy_python</Name>
     <RootNamespace>codeacademy_python</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -114,110 +115,119 @@
     <Compile Include="14_graph_searc\script.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="2_development_skills\git_cli.py">
+    <Compile Include="15_module_OS\functions_module_OS.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="5_python_object\project_basta_fazoolin.py">
+    <Compile Include="15_module_OS\module_OS.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="5_python_object\classes.py" />
-    <Compile Include="3_flow_data_iteration\challenge_lists.py" />
-    <Compile Include="3_flow_data_iteration\challenge_loops.py" />
-    <Compile Include="1_introduction_programming\project_customer_items.py" />
-    <Compile Include="5_python_object\dictionaries.py" />
-    <Compile Include="1_introduction_programming\functions.py" />
-    <Compile Include="5_python_object\project_game_of_chance.py" />
-    <Compile Include="1_introduction_programming\greetings.py" />
-    <Compile Include="3_flow_data_iteration\project_hairdresser.py" />
-    <Compile Include="3_flow_data_iteration\if_statements.py" />
-    <Compile Include="5_python_object\inheritance_polymorphism.py" />
-    <Compile Include="3_flow_data_iteration\project_pizza_slice.py" />
-    <Compile Include="7_linear_data_structure\linked_lists.py">
+    <Compile Include="15_module_OS\module_OS_main.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="5_python_object\lists.py" />
-    <Compile Include="3_flow_data_iteration\loops.py" />
-    <Compile Include="5_python_object\project_employee_class.py">
+    <Compile Include="02_development_skills\git_cli.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="7_linear_data_structure\nodes.py">
+    <Compile Include="05_python_object\project_basta_fazoolin.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="7_linear_data_structure\node_linked_list_stack_queue.py">
+    <Compile Include="05_python_object\classes.py" />
+    <Compile Include="03_flow_data_iteration\challenge_lists.py" />
+    <Compile Include="03_flow_data_iteration\challenge_loops.py" />
+    <Compile Include="01_introduction_programming\project_customer_items.py" />
+    <Compile Include="05_python_object\dictionaries.py" />
+    <Compile Include="01_introduction_programming\functions.py" />
+    <Compile Include="05_python_object\project_game_of_chance.py" />
+    <Compile Include="01_introduction_programming\greetings.py" />
+    <Compile Include="03_flow_data_iteration\project_hairdresser.py" />
+    <Compile Include="03_flow_data_iteration\if_statements.py" />
+    <Compile Include="05_python_object\inheritance_polymorphism.py" />
+    <Compile Include="03_flow_data_iteration\project_pizza_slice.py" />
+    <Compile Include="07_linear_data_structure\linked_lists.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="7_linear_data_structure\project_pizza_stacks.py">
+    <Compile Include="05_python_object\lists.py" />
+    <Compile Include="03_flow_data_iteration\loops.py" />
+    <Compile Include="05_python_object\project_employee_class.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="7_linear_data_structure\stacks.py">
+    <Compile Include="07_linear_data_structure\nodes.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="7_linear_data_structure\project_tower_hanoi.py">
+    <Compile Include="07_linear_data_structure\node_linked_list_stack_queue.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="6_art_marketplace\veneer_art_marketplace.py">
+    <Compile Include="07_linear_data_structure\project_pizza_stacks.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="5_python_object\modules.py" />
-    <Compile Include="1_introduction_programming\project_physic.py" />
-    <Compile Include="5_python_object\project_robot_person.py" />
-    <Compile Include="3_flow_data_iteration\project_roulette.py" />
-    <Compile Include="5_python_object\project_scrabble.py" />
-    <Compile Include="3_flow_data_iteration\project_shipping.py" />
-    <Compile Include="5_python_object\strings.py" />
-    <Compile Include="5_python_object\strings_methods.py" />
-    <Compile Include="5_python_object\project_thread_shed.py" />
-    <Compile Include="4_tourism_recommendation_engine\traveler_project.py" />
-    <Compile Include="4_tourism_recommendation_engine\traveler_project_comments.py" />
-    <Compile Include="3_flow_data_iteration\tuples.py" />
-    <Compile Include="5_python_object\using_dictionaries.py" />
-    <Compile Include="8_complex_data_structure\graphs\graphs.py">
+    <Compile Include="07_linear_data_structure\stacks.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\graphs\script.py">
+    <Compile Include="07_linear_data_structure\project_tower_hanoi.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\graphs\vertex.py">
+    <Compile Include="06_art_marketplace\veneer_art_marketplace.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\hashmap.py" />
-    <Compile Include="8_complex_data_structure\heaps.py">
+    <Compile Include="05_python_object\modules.py" />
+    <Compile Include="01_introduction_programming\project_physic.py" />
+    <Compile Include="05_python_object\project_robot_person.py" />
+    <Compile Include="03_flow_data_iteration\project_roulette.py" />
+    <Compile Include="05_python_object\project_scrabble.py" />
+    <Compile Include="03_flow_data_iteration\project_shipping.py" />
+    <Compile Include="05_python_object\strings.py" />
+    <Compile Include="05_python_object\strings_methods.py" />
+    <Compile Include="05_python_object\project_thread_shed.py" />
+    <Compile Include="04_tourism_recommendation_engine\traveler_project.py" />
+    <Compile Include="04_tourism_recommendation_engine\traveler_project_comments.py" />
+    <Compile Include="03_flow_data_iteration\tuples.py" />
+    <Compile Include="05_python_object\using_dictionaries.py" />
+    <Compile Include="08_complex_data_structure\graphs\graphs.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\heap_review.py">
+    <Compile Include="08_complex_data_structure\graphs\script.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\project_blossom.py">
+    <Compile Include="08_complex_data_structure\graphs\vertex.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\project_gym\gym.py">
+    <Compile Include="08_complex_data_structure\hashmap.py" />
+    <Compile Include="08_complex_data_structure\heaps.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\project_maze\graph.py">
+    <Compile Include="08_complex_data_structure\heap_review.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\project_maze\script.py">
+    <Compile Include="08_complex_data_structure\project_blossom.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\project_maze\vertex.py">
+    <Compile Include="08_complex_data_structure\project_gym\gym.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\project_maze_review\graph.py">
+    <Compile Include="08_complex_data_structure\project_maze\graph.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\project_maze_review\script.py">
+    <Compile Include="08_complex_data_structure\project_maze\script.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\project_maze_review\vertex.py">
+    <Compile Include="08_complex_data_structure\project_maze\vertex.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\project_south_activity\south_activity.py">
+    <Compile Include="08_complex_data_structure\project_maze_review\graph.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\project_wilderness_espace.py">
+    <Compile Include="08_complex_data_structure\project_maze_review\script.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="8_complex_data_structure\trees.py">
+    <Compile Include="08_complex_data_structure\project_maze_review\vertex.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08_complex_data_structure\project_south_activity\south_activity.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08_complex_data_structure\project_wilderness_espace.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="08_complex_data_structure\trees.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -226,24 +236,25 @@
     <Folder Include="13_search_algorithms\project_searchdemy\" />
     <Folder Include="14_graph_searc\project_skyroute_review\" />
     <Folder Include="14_graph_searc\project_skyroute\" />
-    <Folder Include="1_introduction_programming\" />
-    <Folder Include="2_development_skills\" />
-    <Folder Include="3_flow_data_iteration\" />
-    <Folder Include="4_tourism_recommendation_engine\" />
-    <Folder Include="5_python_object\" />
-    <Folder Include="6_art_marketplace\" />
-    <Folder Include="7_linear_data_structure\" />
-    <Folder Include="8_complex_data_structure\" />
-    <Folder Include="8_complex_data_structure\graphs\" />
-    <Folder Include="8_complex_data_structure\project_maze_review\" />
-    <Folder Include="8_complex_data_structure\project_gym\" />
-    <Folder Include="8_complex_data_structure\project_south_activity\" />
-    <Folder Include="8_complex_data_structure\project_maze\" />
+    <Folder Include="01_introduction_programming\" />
+    <Folder Include="02_development_skills\" />
+    <Folder Include="03_flow_data_iteration\" />
+    <Folder Include="04_tourism_recommendation_engine\" />
+    <Folder Include="05_python_object\" />
+    <Folder Include="06_art_marketplace\" />
+    <Folder Include="07_linear_data_structure\" />
+    <Folder Include="08_complex_data_structure\" />
+    <Folder Include="08_complex_data_structure\graphs\" />
+    <Folder Include="08_complex_data_structure\project_maze_review\" />
+    <Folder Include="08_complex_data_structure\project_gym\" />
+    <Folder Include="08_complex_data_structure\project_south_activity\" />
+    <Folder Include="08_complex_data_structure\project_maze\" />
     <Folder Include="10_asymptotic_notation\" />
     <Folder Include="11_recursion\" />
     <Folder Include="12_sorting\" />
     <Folder Include="13_search_algorithms\" />
     <Folder Include="14_graph_searc\" />
+    <Folder Include="15_module_OS\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
