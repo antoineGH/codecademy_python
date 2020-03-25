@@ -232,6 +232,10 @@ class LawFirm:
     
   def __len__(self):
     return len(self.lawyers)
+
+  def add_lawyer(self, name):
+      self.lawyers.append(name)
+      return self.lawyers
   
   def __contains__(self, lawyer):
     if lawyer in self.lawyers:
@@ -243,6 +247,12 @@ d_and_p = LawFirm("Injury", ["Donelli", "Paderewski"])
 print(d_and_p.__len__()) # >>> 2
 print(d_and_p.__contains__("Donelli")) # >>> True
 print(d_and_p.__contains__("Antoine")) # >>> False
+
+
+
+
+d_and_p.add_lawyer("Antoine")
+print(d_and_p.lawyers)
 
 # Review
 

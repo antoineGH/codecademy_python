@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ebfaef3f-0f9e-4f9d-b5ae-d568d6ca72c3</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>15_module_OS\module_OS_main.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>00_tests\max_debug\censor_dispenser.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>codeacademy_python</Name>
+    <Name>codecademy_python</Name>
     <RootNamespace>codeacademy_python</RootNamespace>
     <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
@@ -22,6 +23,70 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="00_tests\leboncoin2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\max_debug\censor_dispenser.py" />
+    <Compile Include="00_tests\Pokemon\pokemon.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\leboncoin.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test12.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test13.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test14.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test16\graph.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test16\script.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test16\vertex.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test17.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test18.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test7.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test8.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\tests.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="10_asymptotic_notation\linkedlist.py">
       <SubType>Code</SubType>
     </Compile>
@@ -232,6 +297,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="00_tests\max_debug\" />
+    <Folder Include="00_tests\Pokemon\" />
+    <Folder Include="00_tests\test16\" />
     <Folder Include="12_sorting\project_sorted_tale\" />
     <Folder Include="13_search_algorithms\project_searchdemy\" />
     <Folder Include="14_graph_searc\project_skyroute_review\" />
@@ -255,6 +323,13 @@
     <Folder Include="13_search_algorithms\" />
     <Folder Include="14_graph_searc\" />
     <Folder Include="15_module_OS\" />
+    <Folder Include="00_tests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="00_tests\max_debug\email_four.txt" />
+    <Content Include="00_tests\max_debug\email_one.txt" />
+    <Content Include="00_tests\max_debug\email_three.txt" />
+    <Content Include="00_tests\max_debug\email_two.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
