@@ -5,7 +5,7 @@
     <ProjectGuid>ebfaef3f-0f9e-4f9d-b5ae-d568d6ca72c3</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>00_tests\max_debug\censor_dispenser.py</StartupFile>
+    <StartupFile>00_tests\Pokemon\pokemon.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

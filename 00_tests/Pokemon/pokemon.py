@@ -64,7 +64,7 @@ class Trainer:
         if len(self.pokelist) > 0:
             print("{} Pokedex has:".format(self.name))
             for pokemon in self.pokelist:
-                print("{} (Level {}) - {}".format(pokemon.name, pokemon.level, pokemon.knocked_out))
+                print("{} (Level {}) - {} - {}/10 XP".format(pokemon.name, pokemon.level, pokemon.knocked_out, pokemon.experience))
         else:
             return "has no Pokemon yet!\n"
 
@@ -109,6 +109,7 @@ class Pokemon:
         self.id = name + str(self.unique_id)
         self.family = name
         self.level = level
+        self.experience = 0
         self.set_name()
         self.type = type
         self.health = health
@@ -125,6 +126,9 @@ class Pokemon:
 
     def is_alive(self):
         return self.knocked_out == "Alive"
+
+    def is_target_alive(self, target):
+        return target.knocked_out == "Alive"
 
     def level_up(self):
         if self.is_alive():
@@ -153,7 +157,7 @@ class Pokemon:
 
     def knock_out(self):
         if self.is_alive():
-            print("Oh no! {} is Dead.\n".format(self.name))
+            print("Oh no! {} is Dead.".format(self.name))
             self.knocked_out = "Dead"
             self.health = 0
         else:
@@ -210,18 +214,46 @@ class Pokemon:
 
     def attack(self, target, sustain=False):
         if self.is_alive():
-            if target.is_alive():
+            if self.is_target_alive(target):
                 damage = self.damage_boost(target) * self.level * 5
                 print("{} attacks {} and deal {} damage (boost x{})".format(self.name, target.name, damage, self.damage_boost(target)))
                 target.lose_health(damage)
                 if sustain:
                     print("Sustain!")
                     self.restore_health(damage * 0.25)
+                if not self.is_target_alive(target):
+                    self.check_xp(target)
             else:
-                print("Can't attack target {} is already dead.".format(target.name))
+                print("Can't attack target {} is already dead.\n".format(target.name))
         else:
-            print("Can't attack your active Pokemon is dead...".format(self.name))
+            print("Can't attack your active Pokemon is dead...\n".format(self.name))
             return 
+
+    def check_xp(self, target):
+        if self.level == target.level:
+            xp = self.add_experience(8)
+        elif self.level >= target.level:
+            xp = self.add_experience(5)
+        else:
+            xp = self.add_experience(10)
+        if xp :
+            print("{} earned {}XP from his fight with {}.\n".format(self.name, xp, target.name))
+            return xp
+        else:
+            return
+        
+    def add_experience(self, xp):
+        if self.is_alive():
+            self.experience += xp
+            if self.experience >= 10:
+                self.level_up()
+                rest = self.experience - 10
+                self.experience = 0 + rest
+            return xp
+        else:
+            print("Can't XP, {} is dead".format(self.name))
+            return
+
 
 ### CLASS INSTANTIATION & CALLS
 
@@ -230,48 +262,53 @@ antoine = Trainer("Antoine", 3)
 bastien = Trainer("Bastien", 3)
 
 ## POKEMONS
-squirtle = Pokemon("Squirtle", 4, "Water", 50, False)
+squirtle = Pokemon("Squirtle", 2, "Water", 50, False)
 charmander = Pokemon("Charmander", 2, "Fire", 50, False)
-bulbasaur = Pokemon("Bulbasaur", 2, "Fire", 50, False)
+bulbasaur = Pokemon("Bulbasaur", 3, "Fire", 50, False)
 pidgey = Pokemon("Pidgey", 2, "Fire", 50, False)
 
-squirtle.level_up()
-squirtle.level_up()
+#squirtle.level_up()
+#squirtle.level_up()
 
-# ADD POKEDEX
+## ADD POKEDEX
 antoine.add_pokelist(squirtle)
 antoine.add_pokelist(charmander)
 bastien.add_pokelist(bulbasaur)
 bastien.add_pokelist(pidgey)
 
-## SET ACTIVE POKEMON
+### SET ACTIVE POKEMON
 antoine.set_active_pokemon()
 bastien.set_active_pokemon()
 
-## TRAINER ATTACK
+### TRAINER ATTACK
 antoine.attack_trainer(bastien)
-bastien.attack_trainer(antoine)
+antoine.attack_trainer(bastien)
+antoine.attack_trainer(bastien)
+#bastien.attack_trainer(antoine)
 
-## TRAINER HEAL
-antoine.use_potion()
-bastien.use_potion()
+### SHOW POKEMON
+antoine.show_pokelist()
 
-## TRANSFER POKEMON
-antoine.transfer_pokemon(bulbasaur, bastien)
-antoine.transfer_pokemon(charmander, bastien)
-antoine.transfer_pokemon(squirtle, bastien)
+### TRAINER HEAL
+#antoine.use_potion()
+#bastien.use_potion()
 
-### LEVEL UP 
-print(pidgey)
+### TRANSFER POKEMON
+#antoine.transfer_pokemon(bulbasaur, bastien)
+#antoine.transfer_pokemon(charmander, bastien)
+#antoine.transfer_pokemon(squirtle, bastien)
 
-pidgey.level_up()
-pidgey.level_up()
-pidgey.level_up()
-pidgey.level_up()
-pidgey.level_up()
-pidgey.level_up()
-pidgey.level_up()
-pidgey.level_up()
-pidgey.level_up()
-pidgey.level_up()
-print(pidgey)
+#### LEVEL UP 
+#print(pidgey)
+
+#pidgey.level_up()
+#pidgey.level_up()
+#pidgey.level_up()
+#pidgey.level_up()
+#pidgey.level_up()
+#pidgey.level_up()
+#pidgey.level_up()
+#pidgey.level_up()
+#pidgey.level_up()
+#pidgey.level_up()
+#print(pidgey)
