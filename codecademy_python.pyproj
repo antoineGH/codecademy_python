@@ -23,74 +23,58 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="00_tests\leboncoin2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="00_tests\max_debug\censor_dispenser.py" />
-    <Compile Include="00_tests\password_flask.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="00_tests\Pokemon\pokemon.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="00_tests\test10.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="00_tests\test11.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="00_tests\leboncoin.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test12.py">
+    <Compile Include="00_tests\password_flask.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test13.py">
+    <Compile Include="00_tests\pokemon_project\pokemon.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test14.py">
+    <Compile Include="00_tests\veneer_art.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test16\graph.py">
+    <Compile Include="00_tests\bear_story_tree.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test16\script.py">
+    <Compile Include="00_tests\explore_graph\graph.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test16\vertex.py">
+    <Compile Include="00_tests\explore_graph\script.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test17.py">
+    <Compile Include="00_tests\explore_graph\vertex.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test18.py">
+    <Compile Include="00_tests\bubble_sort.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test19.py">
+    <Compile Include="00_tests\heap_example.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test2.py">
+    <Compile Include="00_tests\gen_list_dict.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test3.py">
+    <Compile Include="00_tests\split_teams.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test4.py">
+    <Compile Include="00_tests\for_loop_poem.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test5.py">
+    <Compile Include="00_tests\traveler_project.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test6.py">
+    <Compile Include="00_tests\sort_files.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test7.py">
+    <Compile Include="00_tests\thread_shed.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\test8.py">
+    <Compile Include="00_tests\generate_plot_test.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="00_tests\tests.py">
+    <Compile Include="00_tests\cal_surface.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="10_asymptotic_notation\linkedlist.py">
@@ -303,9 +287,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="00_tests\max_debug\" />
-    <Folder Include="00_tests\Pokemon\" />
-    <Folder Include="00_tests\test16\" />
+    <Folder Include="00_tests\pokemon_project\" />
+    <Folder Include="00_tests\explore_graph\" />
     <Folder Include="12_sorting\project_sorted_tale\" />
     <Folder Include="13_search_algorithms\project_searchdemy\" />
     <Folder Include="14_graph_searc\project_skyroute_review\" />
@@ -330,12 +313,6 @@
     <Folder Include="14_graph_searc\" />
     <Folder Include="15_module_OS\" />
     <Folder Include="00_tests\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="00_tests\max_debug\email_four.txt" />
-    <Content Include="00_tests\max_debug\email_one.txt" />
-    <Content Include="00_tests\max_debug\email_three.txt" />
-    <Content Include="00_tests\max_debug\email_two.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
