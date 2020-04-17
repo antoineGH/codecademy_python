@@ -5,7 +5,7 @@
     <ProjectGuid>ebfaef3f-0f9e-4f9d-b5ae-d568d6ca72c3</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>00_tests\Pokemon\pokemon.py</StartupFile>
+    <StartupFile>00_tests\password_flask.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="00_tests\max_debug\censor_dispenser.py" />
+    <Compile Include="00_tests\password_flask.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="00_tests\Pokemon\pokemon.py">
       <SubType>Code</SubType>
     </Compile>
@@ -61,6 +64,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="00_tests\test18.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="00_tests\test19.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="00_tests\test2.py">

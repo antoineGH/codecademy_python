@@ -14,7 +14,7 @@ class Trainer:
         list_index = [ i for i in range(len(self.pokelist))]
         print("Setting active Pokemon for Trainer {}.\n".format(self.name))
         for index in list_index:
-            print("Press {} for {} ({})".format(index, self.pokelist[index].name, self.pokelist[index].knocked_out))
+            print("Press {} for {} ({}) - Level {} ({}/10XP)".format(index, self.pokelist[index].name, self.pokelist[index].knocked_out, self.pokelist[index].level, self.pokelist[index].experience))
         user_choice = int(input("\nActive Pokemon choice: "))
         if user_choice in list_index:
             if self.pokelist[user_choice].knocked_out == "Alive":
@@ -284,31 +284,31 @@ bastien.set_active_pokemon()
 antoine.attack_trainer(bastien)
 antoine.attack_trainer(bastien)
 antoine.attack_trainer(bastien)
-#bastien.attack_trainer(antoine)
+bastien.attack_trainer(antoine)
 
 ### SHOW POKEMON
 antoine.show_pokelist()
 
 ### TRAINER HEAL
-#antoine.use_potion()
-#bastien.use_potion()
+antoine.use_potion()
+bastien.use_potion()
 
 ### TRANSFER POKEMON
-#antoine.transfer_pokemon(bulbasaur, bastien)
-#antoine.transfer_pokemon(charmander, bastien)
-#antoine.transfer_pokemon(squirtle, bastien)
+antoine.transfer_pokemon(bulbasaur, bastien)
+antoine.transfer_pokemon(charmander, bastien)
+antoine.transfer_pokemon(squirtle, bastien)
 
 #### LEVEL UP 
-#print(pidgey)
+print(pidgey)
 
-#pidgey.level_up()
-#pidgey.level_up()
-#pidgey.level_up()
-#pidgey.level_up()
-#pidgey.level_up()
-#pidgey.level_up()
-#pidgey.level_up()
-#pidgey.level_up()
-#pidgey.level_up()
-#pidgey.level_up()
-#print(pidgey)
+pidgey.level_up()
+pidgey.level_up()
+pidgey.level_up()
+pidgey.level_up()
+pidgey.level_up()
+pidgey.level_up()
+pidgey.level_up()
+pidgey.level_up()
+pidgey.level_up()
+pidgey.level_up()
+print(pidgey)
