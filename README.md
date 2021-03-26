@@ -13,21 +13,18 @@ Those projects aims to practice HTML/CSS and Bootstrap grid
 
 ## Screenshots
 
-![Tempalrs Screenshot](https://github.com/antoineratat/codecademy_html/blob/main/screenshots/1.PNG?raw=true)
+![Python Screenshot](https://github.com/antoineratat/codecademy_python/blob/master/screenshots/1.jpeg?raw=true)
 
 ## Technologies
 
 Project is created with:
 
--   HTML5
--   CSS3
--   Bootstrap 4.2.1
+-   Python
 
 ## Setup
 
-To run this project, clone it and start index.html
-
 ```
-$ git clone https://github.com/antoineratat/codeacademy_bootstrap.git
-$ cd codeacademy_html/journey_around_the_world_color_css
+$ git clone https://github.com/antoineratat/codecademy_python.git
+$ cd codeacademy_python
+$ python file.py
 ```
