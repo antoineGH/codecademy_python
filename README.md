@@ -1,4 +1,4 @@
-## CodeCademy HTML5
+## Codeacademy Python Courses
 
 ## Table of contents
 
